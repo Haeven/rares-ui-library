@@ -1,6 +1,6 @@
-# ui
+# React UI Library
 
-This library was generated with [Nx](https://nx.dev).
+Library of reusable styled-components.
 
 ## Running unit tests
 
