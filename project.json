@@ -1,0 +1,68 @@
+{
+  "name": "ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/ui/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/ui/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/packages/ui"],
+      "options": {
+        "jestConfig": "packages/ui/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "storybook": {
+      "executor": "@nrwl/storybook:storybook",
+      "options": {
+        "uiFramework": "@storybook/react",
+        "port": 4400,
+        "configDir": "packages/ui/.storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@nrwl/storybook:build",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "uiFramework": "@storybook/react",
+        "configDir": "packages/ui/.storybook",
+        "outputDir": "dist/storybook/ui"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "deploy-DISABLED": {
+      "dependsOn": [
+        {
+          "target": "build-storybook",
+          "projects": "self"
+        }
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "packages/ui/deploy.sh {args.env} {args.tag}"
+          }
+        ],
+        "parallel": false
+      }
+    }
+  }
+}
