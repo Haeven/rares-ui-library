@@ -1,6 +1,8 @@
+### TODO: UPDATE README
+
 # React UI Library
 
-Library of reusable styled-components.
+Library of reusable styled-components
 
 ## Running unit tests
 
