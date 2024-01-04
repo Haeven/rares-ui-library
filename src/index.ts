@@ -16,56 +16,56 @@ import { SpecificationSection } from './lib/asset-page/SpecificationSection/Spec
 import { TopLevelDetails } from './lib/asset-page/TopLevelDetails/TopLevelDetails';
 
 //Buttons
-import { Button } from './lib/buttons/Button/Button';
-import { LinkButton } from './lib/buttons/LinkButton/LinkButton';
-import { SubmitButton } from './lib/buttons/SubmitButton/SubmitButton';
-import { UnstyledButton } from './lib/buttons/UnstyledButton/UnstyledButton';
+import { Button } from './lib/buttons/Button';
+import { LinkButton } from './lib/buttons/LinkButton';
+import { SubmitButton } from './lib/buttons/SubmitButton';
+import { UnstyledButton } from './lib/buttons/UnstyledButton';
 
 //Components
 import { Alert } from './lib/components/Alert';
 import { AppBlock } from './lib/components/AppBlock';
-import { Avatar } from './lib/components/Avatar/Avatar';
-import { BottomDrawer } from './lib/components/BottomDrawer/BottomDrawer';
-import { Breadcrumbs } from './lib/components/Breadcrumbs/Breadcrumbs';
-import { ConditionalWrapper } from './lib/components/ConditionalWrapper/ConditionalWrapper';
-import { Container } from './lib/components/Container/Container';
-import { Flex } from './lib/components/Flex/Flex';
-import { Grid } from './lib/components/Grid/Grid';
-import { Line } from './lib/components/Line/Line';
-import { LoadingSpinner } from './lib/components/LoadingSpinner/LoadingSpinner';
-import { ModalWrapper } from './lib/components/ModalWrapper/ModalWrapper';
-import { PageHero } from './lib/components/PageHero/PageHero';
-import { ReadMore } from './lib/components/ReadMore/ReadMore';
-import { ResponsiveImage } from './lib/components/ResponsiveImage/ResponsiveImage';
+import { Avatar } from './lib/components/Avatar';
+import { BottomDrawer } from './lib/components/BottomDrawer';
+import { Breadcrumbs } from './lib/components/Breadcrumbs';
+import { ConditionalWrapper } from './lib/components/ConditionalWrapper';
+import { Container } from './lib/components/Container';
+import { Flex } from './lib/components/Flex';
+import { Grid } from './lib/components/Grid';
+import { Line } from './lib/components/Line';
+import { LoadingSpinner } from './lib/components/LoadingSpinner';
+import { ModalWrapper } from './lib/components/ModalWrapper';
+import { PageHero } from './lib/components/PageHero';
+import { ReadMore } from './lib/components/ReadMore';
+import { ResponsiveImage } from './lib/components/ResponsiveImage';
 import { SkeletonLoader } from './lib/components/SkeletonLoader';
-import { Tooltip } from './lib/components/Tooltip/Tooltip';
-import { Typography, Heading } from './lib/components/Typography/Typography';
+import { Tooltip } from './lib/components/Tooltip';
+import { Typography, Heading } from './lib/components/Typography';
 
 //Currency Formatter
-import { CurrencyFormatter } from './lib/CurrencyFormatter/CurrencyFormatter';
+import { CurrencyFormatter } from './lib/utils/CurrencyFormatter';
 
 //Form Components
-import { Checkbox } from './lib/form-components/Checkbox/Checkbox';
-import { CheckboxField } from './lib/form-components/CheckboxField/CheckboxField';
+import { Checkbox } from './lib/form-components/Checkbox';
+import { CheckboxField } from './lib/form-components/CheckboxField';
 import { CurrencyField } from './lib/form-components/CurrencyField';
-import { DateField } from './lib/form-components/DateField/DateField';
+import { DateField } from './lib/form-components/DateField';
 import { DoubleFieldWrapper } from './lib/form-components/DoubleFieldWrapper';
-import { FormError } from './lib/form-components/FormError/FormError';
+import { FormError } from './lib/form-components/FormError';
 import { FormExample } from './lib/form-components/FormExample/FormExample';
-import { FormWrapper } from './lib/form-components/FormWrapper/FormWrapper';
-import { Input, StyledInput } from './lib/form-components/Input/Input';
-import { InputError } from './lib/form-components/InputError/InputError';
-import { InputField } from './lib/form-components/InputField/InputField';
+import { FormWrapper } from './lib/form-components/FormWrapper';
+import { Input, StyledInput } from './lib/form-components/Input';
+import { InputError } from './lib/form-components/InputError';
+import { InputField } from './lib/form-components/InputField';
 import { KycRequirementMessage } from './lib/form-components/KycRequirementMessage/KycRequirementMessage';
-import { Link } from './lib/form-components/Link/Link';
+import { Link } from './lib/form-components/Link';
 import { UnstyledLink } from './lib/form-components/Link/UnstyledLink';
-import { Message } from './lib/form-components/Message/Message';
+import { Message } from './lib/form-components/Message';
 import { PhoneNumberField } from './lib/form-components/PhoneNumberField';
-import { Spacer } from './lib/form-components/Spacer/Spacer';
+import { Spacer } from './lib/form-components/Spacer';
 import { SsnField } from './lib/form-components/SsnField';
-import { TextArea } from './lib/form-components/TextArea/TextArea';
-import { TextAreaField } from './lib/form-components/TextAreaField/TextAreaField';
-import { Title } from './lib/form-components/Title/Title';
+import { TextArea } from './lib/form-components/TextArea';
+import { TextAreaField } from './lib/form-components/TextAreaField';
+import { Title } from './lib/form-components/Title';
 
 //Icons
 import { AddIcon } from './lib/icons/AddIcon';

@@ -1,4 +1,3 @@
-git remote add origin git@github.com:Haeven/react-ui-library.git
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {

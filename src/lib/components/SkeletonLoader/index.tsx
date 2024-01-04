@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import { Container } from '../Container/Container';
+import { Container } from '../Container';
 
 const skeleton = keyframes`
 0% {
