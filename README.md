@@ -26,7 +26,7 @@
 
 # Description
 
-> Library of reusable styled-components
+> Library of reusable styled-components originally built for internal purpose at Rares, now paired down business logic and component files specific to Rares removed.
 
 # Install
 
