@@ -26,7 +26,7 @@
 
 # Description
 
-> Library of reusable styled-components originally built for internal purpose at Rares now paired down business-logic and components specific to Rares removed.
+> Library of reusable styled-components originally built for internal purpose at Rares now paired down business-logic and components that were specific to Rares use-cases removed.
 
 # Install
 
