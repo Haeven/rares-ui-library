@@ -26,7 +26,7 @@
 
 # Description
 
-> My library of reusable styled-components I originally built for internal purposes at Rares, paired down and business-logic specific to Rares use-cases removed.
+> Library of reusable styled-components I originally built for internal purposes at Rares, paired down and business-logic specific to Rares use-cases removed.
 
 # Install
 
